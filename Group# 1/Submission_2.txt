@@ -1,0 +1,91 @@
+Submission 2: SOFTWARE SPECIFICATION
+GROUP MEMBERS: 
+Cassie Beaton 
+Dyanand Ghandatt 
+Joshua Mc Donald 
+Dominic Ross 
+Vickash Singh 
+Teddy Young 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+Purpose
+This documentation serves to highlight the usefulness of characteristics within an open source digital database software centred around the education system, improving the productivity for teachers, and by extension the Ministry of Education. The school management system (SMS) would allow for electronic storage, modification, sharing and auto-generation of academic and administrative documents within schools across Guyana. The contents provided are targeted towards potential developers and the specified users.
+ 
+Intended Audience and Reading Suggestions
+•	Average users- by teachers and administrative staff daily as a form of registry, tracking punctuality, and grade management for each child. 
+•	Advanced users- reviewers of the accumulated information among schools so as to identify problems and solutions allowing everyone to have a voice.
+•	Programmers- those who find it necessary to improve the system UX, UI or rectifying bugs.      	
+ 
+Product scope
+The motives behind such an undertaking are to help teachers by removing the need to manually enter data, giving them more time to focus on the learning environment. With such an information system, school records such as teachers and students attendance and bio information, teaching schemes, academic achievements, organisational records etc. will be analysed efficiently by appropriate personnels in an effort to improve student and teacher relation.  
+
+Overall Description
+Product Perspective
+The creation of this software is essential for organising paper documentation in our schools, as well as for cutting down on the time spent sorting and looking for files. Efficiency will be greatly improved, and there will be easy access to data in digestible forms, allowing for quick identification of any weak points.
+ 
+
+2.2  Product Functions 
+User Classes and Characteristics
+•	Average users- at the basic level, the software needs to be used collectively within an institute of learning by teachers and administrative staff so that data can be accumulated appropriately.
+•	Advanced users- these accounts will be specified, allowing access to easily comprehensible information with the appropriate infographic. Advanced users will encompass administrative staff of the the Ministry of Education that require access to data within schools. It will also include administrative staff from other schools seeking to share community resources such as termly schemes and curriculum documents. 
+•	Programmers- those who find it necessary to improve upon the application especially to accommodate their own school along with finding and rectifying bugs.
+ 
+Design and Implementation Constraints
+This database system, developed in javascript, implements SQL to manage the database along with global, fragmentation and allocation schemas. The database will be implemented using a centralised management system.
+ 
+
+Assumptions and Dependencies
+The database system, built in javascript can be utilised in the following ways:
+•	Easily store and track personal,  academic and cocurricular records and performance with an RFID card.
+•	Analysis of student ability and acknowledgement as necessary.
+ 
+3.  System Features
+This section of the documentation identifies the most notable traits of the database software along with their practical use and the positives of such.
+Features of the SMS include:
+•	Electronic data entry and retrieval: staff would be given the convenience of being able to electronically enter data into the system and retrieve them in real time as they become available.  
+•	Data sharing and collaboration of records: the database will give the option to automatically share, and distribute community documents. It will further allow users to auto generate summary documents such as a student's termly report by pulling data from multiple tables within the document. It would connect schools and allow for single documents and memos released by MOE to be distributed and accessed by all schools within the database. 
+•	Progress monitoring: the database would allow for the Ministry to do real time monitoring of records and progress reports within schools for such documents as SBA reports, which give an overall view of students' progress and preparedness for CSEC examinations in various subject areas. 
+ 
+3.1  System Feature 1 (Broad description of functionality)
+Description and Priority
+With such a database system, information for each student summarises their attendance and punctuality along with their academic standing. The high priority attached to such a project stems from the need to digitally develop the education sector and improve efficiency.
+ 
+Stimulus/Response Sequences
+•	 With the use of a RFID card, students and teachers can easily mark necessary information upon arrival to school
+•	Access to organised data with the appropriate account to view attendance, punctuality, academic performance etc. In accordance with the administrative regions or of a more specific learning institute.
+•	With its nature alerts specific to the education section can be managed across account types.
+ 
+Functional Requirements
+A distributed database would be more appropriate for this project since the database will be spread over different systems, on multiple servers. This would allow for better response across the country and a system failure wouldn’t seriously affect the database system. Along with incorporating a client/server system which specifies sites as either client or server.
+ 
+3.2 System Feature 2 
+Insert Use Case Specification and Use Case Diagram at the end of this section
+ 
+4.  Other Nonfunctional Requirements
+These subsections are intended to provide a general guide about how you should categorise the various non-functional requirements of your system.
+ 
+4.1 Performance Requirements
+Safety Requirements
+The database software prevents data loss from crashes and bugs with a recovery method which replaces the database which would be stored by means of tape archiving, recreating the operations of saved transactions from the available log to the point of system collapse. The database system is open source which would allow the community to identify bugs and fix them, reducing the capacity for failure.
+ 
+
+Security Requirements
+Storage is a very important aspect of this project making security necessary. Accounts vary depending on the user giving access to information that pertains to your educational institute or those situated within specified regions.
+ 
+Software Quality Attributes
+This database software is powerful and capable of organising the education system, analysing the daily lives of students and making the Ministry of Education aware of subtle failings, forcing a stimulating change. Such a system requires a learning period for its most efficient use.
+
